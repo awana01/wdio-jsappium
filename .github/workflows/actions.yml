@@ -43,8 +43,8 @@ jobs:
           if: always()
           uses: Sibz/github-status-action@v1
           run: echo '::set-output name=SELECTED_COLOR::green'
-          run: echo 'token :: ${{secrets.GITHUB_TOKEN}}'
-          run: echo "run number :: ${{ github.run_number }}"
+          #run: echo 'token :: ${{secrets.GITHUB_TOKEN}}'
+          #run: echo "run number :: ${{ github.run_number }}"
           with: 
             authToken: ${{secrets.GITHUB_TOKEN}}
             context: 'Test report'
