@@ -39,12 +39,13 @@ jobs:
             PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             PUBLISH_BRANCH: gh-pages
             PUBLISH_DIR: allure-history
+        - name: echo output
+          run: echo '::set-output name=SELECTED_COLOR::green'
+          run: echo ${{secrets.GITHUB_TOKEN}}
+          run: echo ${{ github.run_number }}
         - name: Post the link to the report
           if: always()
           uses: Sibz/github-status-action@v1
-          run: echo '::set-output name=SELECTED_COLOR::green'
-          #run: echo 'token :: ${{secrets.GITHUB_TOKEN}}'
-          #run: echo "run number :: ${{ github.run_number }}"
           with: 
             authToken: ${{secrets.GITHUB_TOKEN}}
             context: 'Test report'
