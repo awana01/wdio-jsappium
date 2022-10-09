@@ -11,5 +11,5 @@ npm-debug.log
 
 # custom
 *.log
-#allure-results/
+allure-results/
 

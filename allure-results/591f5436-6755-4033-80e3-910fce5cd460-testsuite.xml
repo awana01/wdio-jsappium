@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665213429532' stop='1665213436019'>
+    <name>various gesture test</name>
+    <title>various gesture test</title>
+    <test-cases>
+        <test-case start='1665213429532' status='passed' stop='1665213436018'>
+            <name>horizointal swipe to right</name>
+            <title>horizointal swipe to right</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1665213433535' status='passed' stop='1665213433666'>
+                    <name>GET /session/:sessionId/window/rect</name>
+                    <title>GET /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='cea07491-ddd9-4692-9ed4-a3bf7c9e544d-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665213433667' status='passed' stop='1665213436017'>
+                    <name>POST /session/:sessionId/touch/perform</name>
+                    <title>POST /session/:sessionId/touch/perform</title>
+                    <attachments>
+                        <attachment title='Request' source='c9566711-724c-4be2-b8e0-b47b6ed86037-attachment.json' type='application/json' size='265'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

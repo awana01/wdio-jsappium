@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665214569436' stop='1665214576834'>
+    <name>various gesture test</name>
+    <title>various gesture test</title>
+    <test-cases>
+        <test-case start='1665214569436' status='passed' stop='1665214576833'>
+            <name>horizointal swipe to right</name>
+            <title>horizointal swipe to right</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1665214573439' status='passed' stop='1665214573672'>
+                    <name>GET /session/:sessionId/window/rect</name>
+                    <title>GET /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='aeb9087b-da47-4a35-b151-9e531b6edf9a-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665214573674' status='passed' stop='1665214573888'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f87a1cd3-1f67-4d76-af58-82213a8540da-attachment.json' type='application/json' size='96'/>
+                        <attachment title='Response' source='ab19bbe7-dffd-4b79-9633-9a39c779fa36-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665214573898' status='passed' stop='1665214576832'>
+                    <name>POST /session/:sessionId/touch/perform</name>
+                    <title>POST /session/:sessionId/touch/perform</title>
+                    <attachments>
+                        <attachment title='Request' source='bba88b4f-a46b-4db8-93d6-9eb0190decaf-attachment.json' type='application/json' size='307'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

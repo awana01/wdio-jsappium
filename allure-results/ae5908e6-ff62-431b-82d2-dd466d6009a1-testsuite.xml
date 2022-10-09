@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665039247398' stop='1665039259885'>
+    <name>Android Mi A2 settings test</name>
+    <title>Android Mi A2 settings test</title>
+    <test-cases>
+        <test-case start='1665039247399' status='failed' stop='1665039259883'>
+            <name>go to settings app</name>
+            <title>go to settings app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1665039252401' status='passed' stop='1665039254170'>
+                    <name>POST /session/:sessionId/appium/device/start_activity</name>
+                    <title>POST /session/:sessionId/appium/device/start_activity</title>
+                    <attachments>
+                        <attachment title='Request' source='fb44bafc-fd93-4161-978c-8aa72aeb46f0-attachment.json' type='application/json' size='96'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665039256171' status='passed' stop='1665039256376'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c728fac1-11c6-4b06-b9e5-93ad802a1517-attachment.json' type='application/json' size='97'/>
+                        <attachment title='Response' source='3436ca09-c060-4ddf-a092-fa2b253f84de-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665039256385' status='passed' stop='1665039256574'>
+                    <name>POST /session/:sessionId/element/00000000-0000-0440-ffff-ffff0000007e/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-0440-ffff-ffff0000007e/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665039256976' status='passed' stop='1665039258065'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='41b1fd3d-3e11-45dd-b26a-d922e34769be-attachment.json' type='application/json' size='89'/>
+                        <attachment title='Response' source='e3d244cb-2ca4-4ab3-8956-16b398b10e14-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665039259071' status='passed' stop='1665039259882'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='36fb220f-6901-4b87-8c83-3b9179b7054c-attachment.png' type='image/png' size='112932'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Malformed type for "value" parameter of command sendKeys
+                Expected: string[]
+                Actual: (string)[]
+                
+                For more info see https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol#sessionsessionidkeys
+                </message>
+                <stack-trace>Error: Malformed type for "value" parameter of command sendKeys
+                Expected: string[]
+                Actual: (string)[]
+                
+                For more info see https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol#sessionsessionidkeys
+                
+                    at Element.protocolCommand (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriver\build\command.js:53:23)
+                    at Element.wrapCommandFn (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at sendKeyAsUser (E:\MyWorkSpace\wdo-samples\wdio-jsappium\test\helpers\/utils.js:69:7)
+                    at Context.&lt;anonymous> (E:\MyWorkSpace\wdo-samples\wdio-jsappium\test\specs\chromeapp\/chrome1.test.js:13:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665237466256' stop='1665237475114'>
+    <name>various gesture test</name>
+    <title>various gesture test</title>
+    <test-cases>
+        <test-case start='1665237466257' status='broken' stop='1665237475112'>
+            <name>horizointal swipe to right</name>
+            <title>horizointal swipe to right</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CPH2341 12.0-12'/>
+            </parameters>
+            <steps>
+                <step start='1665237470261' status='passed' stop='1665237470369'>
+                    <name>GET /session/:sessionId/window/rect</name>
+                    <title>GET /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='8fc050f0-c48f-4a0e-bc7a-db0fc9705e6c-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665237470374' status='passed' stop='1665237471160'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='311d9f02-b374-4b54-8161-d2154200c7a9-attachment.json' type='application/json' size='96'/>
+                        <attachment title='Response' source='3d88c5e1-7d90-4c41-b0e3-665b88cd3e72-attachment.json' type='application/json' size='901'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665237471180' status='broken' stop='1665237475111'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='5a0ce078-9166-4d8e-9cf9-dbaaf5a28f2b-attachment.json' type='application/json' size='666'/>
+                    </attachments>
+                    <steps>
+                        <step start='1665237471196' status='passed' stop='1665237472528'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='146eb191-5fa1-43cc-801b-5a0bd2914fd4-attachment.json' type='application/json' size='96'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1665237472542' status='passed' stop='1665237474144'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='8fe58ce4-82f5-4ff9-ae17-4793e87ad429-attachment.json' type='application/json' size='2'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1665237474152' status='passed' stop='1665237475108'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='04560f1e-cd13-46cc-a351-f2ccb419766c-attachment.json' type='application/json' size='96'/>
+                                <attachment title='Screenshot' source='9ffd5917-8fa1-4d4f-ad7d-fe03ab62d731-attachment.png' type='image/png' size='450016'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>flingSwipe is not defined</message>
+                <stack-trace>ReferenceError: flingSwipe is not defined
+                    at Context.&lt;anonymous> (E:\MyWorkSpace\wdo-samples\wdio-jsappium\test\specs\/gesture01.test.js:84:29)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

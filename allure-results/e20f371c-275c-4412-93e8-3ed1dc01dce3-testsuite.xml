@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665320469836' stop='1665320474895'>
+    <name>sample appium test</name>
+    <title>sample appium test</title>
+    <test-cases>
+        <test-case start='1665320469837' status='broken' stop='1665320474890'>
+            <name>A sample menu click</name>
+            <title>A sample menu click</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.62'/>
+            </parameters>
+            <steps>
+                <step start='1665320474840' status='broken' stop='1665320474890'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='995c35f6-3b69-4da6-a101-61669d9c2f40-attachment.json' type='application/json' size='99'/>
+                    </attachments>
+                    <steps>
+                        <step start='1665320474882' status='broken' stop='1665320474890'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1665320474885' status='broken' stop='1665320474890'>
+                                    <name>DELETE /session/:sessionId</name>
+                                    <title>DELETE /session/:sessionId</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>write ECONNRESET</message>
+                <stack-trace>RequestError: write ECONNRESET
+                    at ClientRequest.&lt;anonymous> (E:\MyWorkSpace\wdo-samples\git-wdio-jsappium\node_modules\got\dist\source\core\index.js:970:111)
+                    at Object.onceWrapper (node:events:642:26)
+                    at ClientRequest.emit (node:events:539:35)
+                    at ClientRequest.emit (node:domain:475:12)
+                    at ClientRequest.origin.emit (E:\MyWorkSpace\wdo-samples\git-wdio-jsappium\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (node:_http_client:454:9)
+                    at Socket.emit (node:events:527:28)
+                    at Socket.emit (node:domain:475:12)
+                    at emitErrorNT (node:internal/streams/destroy:157:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+                    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+                    at writevGeneric (node:internal/stream_base_commons:143:3)
+                    at Socket._writeGeneric (node:net:815:11)
+                    at Socket._writev (node:net:824:8)
+                    at doWrite (node:internal/streams/writable:406:12)
+                    at clearBuffer (node:internal/streams/writable:561:5)
+                    at Socket.Writable.uncork (node:internal/streams/writable:348:7)
+                    at ClientRequest._flushOutput (node:_http_outgoing:970:10)
+                    at ClientRequest._flush (node:_http_outgoing:939:22)
+                    at onSocketNT (node:_http_client:826:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

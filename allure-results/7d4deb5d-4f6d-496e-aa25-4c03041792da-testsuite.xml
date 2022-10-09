@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665072822321' stop='1665072837983'>
+    <name>Android Mi A2 settings test</name>
+    <title>Android Mi A2 settings test</title>
+    <test-cases>
+        <test-case start='1665072822321' status='passed' stop='1665072837982'>
+            <name>go to settings app</name>
+            <title>go to settings app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1665072827323' status='passed' stop='1665072828349'>
+                    <name>POST /session/:sessionId/appium/device/start_activity</name>
+                    <title>POST /session/:sessionId/appium/device/start_activity</title>
+                    <attachments>
+                        <attachment title='Request' source='e0676ec7-8f5e-4515-bee8-b21ad66efc65-attachment.json' type='application/json' size='96'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665072830350' status='passed' stop='1665072831085'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='34df9a28-f772-4a1c-a953-9377e225d170-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='eab3efc0-f425-47a7-8082-5f9bc80eed8b-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665072831094' status='passed' stop='1665072832400'>
+                    <name>POST /session/:sessionId/element/00000000-0000-068b-ffff-ffff0000002d/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-068b-ffff-ffff0000002d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665072834401' status='passed' stop='1665072834594'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cd96e0de-605c-45bf-8169-84bc0636f588-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='5a3133f6-5d84-4e80-b304-7d8b14744590-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665072834599' status='passed' stop='1665072834811'>
+                    <name>POST /session/:sessionId/element/00000000-0000-068c-ffff-ffff0000008b/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-068c-ffff-ffff0000008b/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665072837811' status='passed' stop='1665072837977'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='430dbdf8-8529-4be0-b14c-42b49b507cc6-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='07c7a50d-04c6-4c03-8ede-f3c2ed74857d-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

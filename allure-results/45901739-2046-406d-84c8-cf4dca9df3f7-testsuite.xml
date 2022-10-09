@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665222385136' stop='1665222393672'>
+    <name>various gesture test</name>
+    <title>various gesture test</title>
+    <test-cases>
+        <test-case start='1665222385137' status='broken' stop='1665222393671'>
+            <name>horizointal swipe to right</name>
+            <title>horizointal swipe to right</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1665222389140' status='passed' stop='1665222389222'>
+                    <name>GET /session/:sessionId/window/rect</name>
+                    <title>GET /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='85d4f499-2c7d-4483-abad-e4f86f3b380b-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665222389224' status='passed' stop='1665222389352'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='39c0c6b6-d5bb-403e-a45c-0fd1ea53351c-attachment.json' type='application/json' size='96'/>
+                        <attachment title='Response' source='27fc7596-c689-4dd0-8279-592132417a8f-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665222389361' status='passed' stop='1665222390646'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='a95651f9-425f-4a89-ba25-2b0378beeafe-attachment.json' type='application/json' size='666'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665222390647' status='broken' stop='1665222393671'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='05f588b7-5ad9-4ac3-b401-9178b265db18-attachment.json' type='application/json' size='141'/>
+                    </attachments>
+                    <steps>
+                        <step start='1665222390964' status='passed' stop='1665222393669'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='e373b546-2474-450e-a18b-473d6c885978-attachment.png' type='image/png' size='2148228'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector "new UiScrollable(new UiSelector().scrollable(true).scrollForward()).setAsHorizontalList()" used with strategy "-android uiautomator" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "new UiScrollable(new UiSelector().scrollable(true).scrollForward()).setAsHorizontalList()" used with strategy "-android uiautomator" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (E:\MyWorkSpace\wdo-samples\wdio-jsappium\test\specs\/gesture01.test.js:77:10)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

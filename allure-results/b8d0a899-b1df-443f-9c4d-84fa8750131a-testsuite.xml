@@ -1,0 +1,120 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665117690866' stop='1665117728853'>
+    <name>Android Mi A2 settings test</name>
+    <title>Android Mi A2 settings test</title>
+    <test-cases>
+        <test-case start='1665117690866' status='broken' stop='1665117728845'>
+            <name>test chrome app</name>
+            <title>test chrome app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1665117695873' status='passed' stop='1665117697960'>
+                    <name>POST /session/:sessionId/appium/device/start_activity</name>
+                    <title>POST /session/:sessionId/appium/device/start_activity</title>
+                    <attachments>
+                        <attachment title='Request' source='a4f58f8a-776d-489e-8afb-ff119840961d-attachment.json' type='application/json' size='96'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665117699962' status='passed' stop='1665117700442'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ffb78094-ad63-47cf-a0a5-0996385dd807-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='11576449-0da1-4209-80fc-b6c8b04a141a-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665117700462' status='passed' stop='1665117701841'>
+                    <name>POST /session/:sessionId/element/00000000-0000-06fa-ffff-ffff0000002d/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-06fa-ffff-ffff0000002d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665117703844' status='passed' stop='1665117715653'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='14c3dcbe-1c4f-4ea4-823b-8bb67549bc53-attachment.json' type='application/json' size='119'/>
+                        <attachment title='Response' source='3d7c9adb-9655-48a4-9d93-c3775cc25e55-attachment.json' type='application/json' size='901'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665117718664' status='passed' stop='1665117718975'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bccc37a3-fac4-4e53-9702-45550a39151d-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='60dbf99f-e8bb-4919-be0b-f8e8d346ec5d-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665117718982' status='passed' stop='1665117719172'>
+                    <name>POST /session/:sessionId/element/00000000-0000-06fb-ffff-ffff0000010d/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-06fb-ffff-ffff0000010d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665117722172' status='passed' stop='1665117724472'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='90f0ec9f-9796-487a-9879-c0351dc79c92-attachment.json' type='application/json' size='119'/>
+                        <attachment title='Response' source='39f607a3-0028-49a1-9758-1054f56a5e9b-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665117727482' status='broken' stop='1665117728844'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1d77f215-f5dc-4672-88ad-309e02b67e3b-attachment.json' type='application/json' size='64'/>
+                    </attachments>
+                    <steps>
+                        <step start='1665117728101' status='passed' stop='1665117728842'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='b7be86f7-109e-4d62-a3b8-9685d5a7799a-attachment.png' type='image/png' size='99235'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector "About Chrome" used with strategy "-android uiautomator" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "About Chrome" used with strategy "-android uiautomator" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (E:\MyWorkSpace\wdo-samples\wdio-jsappium\test\specs\chromeapp\/chrome2.addAddress.test.js:36:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1665117728846' status='passed' stop='1665117728849'>
+            <name>this is simple test</name>
+            <title>this is simple test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

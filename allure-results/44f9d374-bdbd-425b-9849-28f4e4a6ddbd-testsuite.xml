@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665065288079' stop='1665065308257'>
+    <name>Android Mi A2 settings test</name>
+    <title>Android Mi A2 settings test</title>
+    <test-cases>
+        <test-case start='1665065288080' status='broken' stop='1665065308256'>
+            <name>test clear notification</name>
+            <title>test clear notification</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1665065291082' status='passed' stop='1665065291171'>
+                    <name>POST /session/:sessionId/appium/device/open_notifications</name>
+                    <title>POST /session/:sessionId/appium/device/open_notifications</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665065292172' status='passed' stop='1665065292378'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cf07178b-60ef-4127-8dd4-b2f1500d89c1-attachment.json' type='application/json' size='111'/>
+                        <attachment title='Response' source='651a2c79-0106-4273-a58a-ffe43a576593-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665065292387' status='passed' stop='1665065292531'>
+                    <name>GET /session/:sessionId/element/00000000-0000-060f-ffff-ffff0000001f/rect</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-060f-ffff-ffff0000001f/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='525e031f-939f-4c47-8f44-92e3d604ffe3-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665065292534' status='passed' stop='1665065292872'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='36b5d0db-bfda-4b62-ad10-733fcc5d6c0d-attachment.json' type='application/json' size='102'/>
+                        <attachment title='Response' source='0def9dd9-f250-4011-8216-38807a07f5f4-attachment.json' type='application/json' size='732'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665065292881' status='passed' stop='1665065292953'>
+                    <name>GET /session/:sessionId/element/00000000-0000-060f-ffff-ffff00008370/rect</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-060f-ffff-ffff00008370/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='c144559b-7fa1-4c8e-804c-4f07ed888807-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665065292954' status='passed' stop='1665065293054'>
+                    <name>GET /session/:sessionId/element/00000000-0000-060f-ffff-ffff00008370/rect</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-060f-ffff-ffff00008370/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='03c766eb-dd78-4b3f-a605-5ce538a89dc9-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665065293055' status='passed' stop='1665065304886'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9904d205-b519-475a-ad31-234bd49ec209-attachment.json' type='application/json' size='168'/>
+                        <attachment title='Response' source='3ac99520-38de-4c14-af8c-e4172836d25f-attachment.json' type='application/json' size='901'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665065306890' status='broken' stop='1665065308256'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7e0cb6b2-b2ae-4406-a28d-839ea4a869b6-attachment.json' type='application/json' size='175'/>
+                    </attachments>
+                    <steps>
+                        <step start='1665065307239' status='passed' stop='1665065308254'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='c7522f85-32f2-4c9e-bfd3-22446d166b0d-attachment.png' type='image/png' size='326356'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector "new UiScrollable(new UiSelector().scrollable(true)).setAsVerticalList().scrollIntoView(new UiSelector().text("CLEAR ALL")" used with strategy "-android uiautomator" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "new UiScrollable(new UiSelector().scrollable(true)).setAsVerticalList().scrollIntoView(new UiSelector().text("CLEAR ALL")" used with strategy "-android uiautomator" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (E:\MyWorkSpace\wdo-samples\wdio-jsappium\test\specs\chromeapp\/chrome1.test.js:61:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

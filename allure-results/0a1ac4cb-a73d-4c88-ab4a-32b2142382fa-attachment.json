@@ -1,0 +1,4 @@
+{
+  "appPackage": "com.android.settings/.Settings",
+  "appActivity": "com.android.settings.Settings"
+}

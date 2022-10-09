@@ -1,0 +1,4 @@
+{
+  "using": "-android uiautomator",
+  "value": "new UiScrollable(new UiSelector().resourceIdMatches(\".*daimajia_slider_image.*\").scrollable(true)).scrollIntoView(new UiSelector().text(\"Mops and Wipers\"))"
+}

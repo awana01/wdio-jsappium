@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665040543719' stop='1665040572067'>
+    <name>Android Mi A2 settings test</name>
+    <title>Android Mi A2 settings test</title>
+    <test-cases>
+        <test-case start='1665040543719' status='passed' stop='1665040572066'>
+            <name>go to settings app</name>
+            <title>go to settings app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1665040548721' status='passed' stop='1665040552574'>
+                    <name>POST /session/:sessionId/appium/device/start_activity</name>
+                    <title>POST /session/:sessionId/appium/device/start_activity</title>
+                    <attachments>
+                        <attachment title='Request' source='69e76b87-f2d3-42e3-8021-4090ae139048-attachment.json' type='application/json' size='96'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665040554576' status='passed' stop='1665040554814'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d55f5845-dd15-4402-bb70-c3c4b0597ee8-attachment.json' type='application/json' size='97'/>
+                        <attachment title='Response' source='e832f41e-cb82-4dd4-9a00-7fa1a09a8d35-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665040554823' status='passed' stop='1665040554993'>
+                    <name>POST /session/:sessionId/element/00000000-0000-0498-ffff-ffff0000007f/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-0498-ffff-ffff0000007f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665040555395' status='passed' stop='1665040556463'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7b221dc3-9c56-4b0c-bd8d-9174089d8147-attachment.json' type='application/json' size='89'/>
+                        <attachment title='Response' source='f0cf1115-fbb3-4760-9c2c-a8f491b1ce61-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665040557473' status='passed' stop='1665040558415'>
+                    <name>POST /session/:sessionId/element/00000000-0000-0498-ffff-ffff00000022/value</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-0498-ffff-ffff00000022/value</title>
+                    <attachments>
+                        <attachment title='Request' source='0102f665-6006-47c1-8f33-30079974dadd-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665040560415' status='passed' stop='1665040561341'>
+                    <name>GET /session/:sessionId/appium/device/is_keyboard_shown</name>
+                    <title>GET /session/:sessionId/appium/device/is_keyboard_shown</title>
+                    <attachments>
+                        <attachment title='Response' source='572115c2-c791-4442-afdc-a3beac26ac86-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665040561341' status='passed' stop='1665040563967'>
+                    <name>POST /session/:sessionId/appium/device/hide_keyboard</name>
+                    <title>POST /session/:sessionId/appium/device/hide_keyboard</title>
+                    <attachments>
+                        <attachment title='Response' source='0f0d77fe-bad2-47e0-9a0d-f238bb07cb49-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665040565167' status='passed' stop='1665040566169'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='322da9f8-1258-4326-a6e2-e5ec2b7c7883-attachment.json' type='application/json' size='107'/>
+                        <attachment title='Response' source='9cf863ff-cd16-46c3-afff-fef19ea3e2ab-attachment.json' type='application/json' size='1462'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665040566184' status='passed' stop='1665040566649'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='f397db62-6dda-4a8d-bcc1-98f375b54c25-attachment.json' type='application/json' size='107'/>
+                        <attachment title='Response' source='b7d9217f-932f-40c0-b574-c205f87719f0-attachment.json' type='application/json' size='440'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665040566656' status='passed' stop='1665040566703'>
+                    <name>GET /session/:sessionId/element/00000000-0000-0498-ffff-ffff000000ed/text</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-0498-ffff-ffff000000ed/text</title>
+                    <attachments>
+                        <attachment title='Response' source='0e13d8e2-0d1b-4af0-bcc4-d4ca9f43bc3d-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665040566704' status='passed' stop='1665040566743'>
+                    <name>GET /session/:sessionId/element/00000000-0000-0498-ffff-ffff0000010f/text</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-0498-ffff-ffff0000010f/text</title>
+                    <attachments>
+                        <attachment title='Response' source='e5d642e7-aec6-4a55-a0b9-544684a72f2b-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665040569744' status='undefined'>
+                    <name>POST /session/:sessionId/touch/perform</name>
+                    <title>POST /session/:sessionId/touch/perform</title>
+                    <attachments>
+                        <attachment title='Request' source='b6339395-88d3-43c9-a548-fe69514bb960-attachment.json' type='application/json' size='261'/>
+                    </attachments>
+                    <steps>
+                        <step start='1665040569748' status='passed' stop='1665040572065'>
+                            <name>POST /session/:sessionId/element/00000000-0000-0498-ffff-ffff0000010f/click</name>
+                            <title>POST /session/:sessionId/element/00000000-0000-0498-ffff-ffff0000010f/click</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

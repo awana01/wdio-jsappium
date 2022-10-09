@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665030069950' stop='1665030090526'>
+    <name>Android settings test</name>
+    <title>Android settings test</title>
+    <test-cases>
+        <test-case start='1665030069950' status='passed' stop='1665030090525'>
+            <name>go to settings app</name>
+            <title>go to settings app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1665030074952' status='passed' stop='1665030075665'>
+                    <name>POST /session/:sessionId/appium/device/start_activity</name>
+                    <title>POST /session/:sessionId/appium/device/start_activity</title>
+                    <attachments>
+                        <attachment title='Request' source='3b0c969b-3da4-4862-b7e5-3f8b68673c0a-attachment.json' type='application/json' size='92'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665030080665' status='passed' stop='1665030080774'>
+                    <name>GET /session/:sessionId/window/rect</name>
+                    <title>GET /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='0192766d-a327-49e5-b653-3c0875667c34-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665030080774' status='passed' stop='1665030080818'>
+                    <name>GET /session/:sessionId/window/rect</name>
+                    <title>GET /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='349e2e18-c0da-4003-a7a5-387b32f18734-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665030080819' status='passed' stop='1665030080873'>
+                    <name>GET /session/:sessionId/appium/device/display_density</name>
+                    <title>GET /session/:sessionId/appium/device/display_density</title>
+                    <attachments>
+                        <attachment title='Response' source='51b42a95-5748-49b5-b7b9-17f384a6ff18-attachment.json' type='application/json' size='3'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665030080873' status='passed' stop='1665030082600'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='f0a47158-41dd-4037-9f76-86e3f3c59dde-attachment.json' type='application/json' size='739'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665030084602' status='passed' stop='1665030086419'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='215aca2f-50c2-4d89-876c-2518740a3eb3-attachment.json' type='application/json' size='739'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665030088419' status='passed' stop='1665030090524'>
+                    <name>POST /session/:sessionId/touch/perform</name>
+                    <title>POST /session/:sessionId/touch/perform</title>
+                    <attachments>
+                        <attachment title='Request' source='b2eb8b66-f0f3-431b-9a18-5e3a637bf164-attachment.json' type='application/json' size='261'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665063119685' stop='1665063125884'>
+    <name>Android Mi A2 settings test</name>
+    <title>Android Mi A2 settings test</title>
+    <test-cases>
+        <test-case start='1665063119685' status='broken' stop='1665063125883'>
+            <name>test clear notification</name>
+            <title>test clear notification</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1665063122687' status='passed' stop='1665063122815'>
+                    <name>POST /session/:sessionId/appium/device/open_notifications</name>
+                    <title>POST /session/:sessionId/appium/device/open_notifications</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665063123816' status='passed' stop='1665063124057'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4f953be1-484d-4640-88c4-0dcdf2f4a826-attachment.json' type='application/json' size='111'/>
+                        <attachment title='Response' source='1743bdf9-d964-48b2-b914-bf988c5559f3-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665063124066' status='passed' stop='1665063124199'>
+                    <name>GET /session/:sessionId/element/00000000-0000-05a1-ffff-ffff0000001f/rect</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-05a1-ffff-ffff0000001f/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='28d966b3-ad09-420a-8cdd-c2b7b90d5945-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665063124202' status='passed' stop='1665063124536'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='17cab25b-67df-4b0a-a5f7-aab6ae0af1d7-attachment.json' type='application/json' size='104'/>
+                        <attachment title='Response' source='d67c1789-f924-451e-8581-7af6fb64c67e-attachment.json' type='application/json' size='732'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665063124546' status='passed' stop='1665063125881'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4ad5080b-0249-4013-b521-edf60c18a5b2-attachment.json' type='application/json' size='96'/>
+                        <attachment title='Screenshot' source='59bb23a1-fc50-43bb-9231-c10617dd17e2-attachment.png' type='image/png' size='327094'/>
+                    </attachments>
+                    <steps>
+                        <step start='1665063124549' status='passed' stop='1665063124913'>
+                            <name>GET /session/:sessionId/element/00000000-0000-05a1-ffff-ffff00008370/rect</name>
+                            <title>GET /session/:sessionId/element/00000000-0000-05a1-ffff-ffff00008370/rect</title>
+                            <attachments>
+                                <attachment title='Response' source='dfb84e5f-42c5-4ab2-b73c-29392167d7b0-attachment.json' type='application/json' size='901'/>
+                            </attachments>
+                            <steps>
+                                <step start='1665063124550' status='passed' stop='1665063124622'>
+                                    <name>GET /session/:sessionId/element/00000000-0000-05a1-ffff-ffff00008370/rect</name>
+                                    <title>GET /session/:sessionId/element/00000000-0000-05a1-ffff-ffff00008370/rect</title>
+                                    <attachments>
+                                        <attachment title='Response' source='7b407cf9-7992-48ac-9bbc-05d9ce283f94-attachment.json' type='application/json' size='59'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1665063124926' status='passed' stop='1665063124929'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='16ed7630-c357-4248-9a33-e1ce4ece6fa4-attachment.json' type='application/json' size='59'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Touch actions like "press" need at least some kind of position information like "element", "x" or "y" options, you've none given.</message>
+                <stack-trace>Error: Touch actions like "press" need at least some kind of position information like "element", "x" or "y" options, you've none given.
+                    at validateParameters (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriverio\build\commands\constant.js:70:19)
+                    at E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriverio\build\commands\constant.js:88:72
+                    at Array.forEach (&lt;anonymous>)
+                    at Browser.touchAction (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriverio\build\commands\constant.js:88:21)
+                    at Browser.touchAction (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\webdriverio\build\commands\browser\touchAction.js:63:35)
+                    at Browser.wrapCommandFn (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Context.&lt;anonymous> (E:\MyWorkSpace\wdo-samples\wdio-jsappium\test\specs\chromeapp\/chrome1.test.js:57:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

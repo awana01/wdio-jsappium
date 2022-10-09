@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665148967065' stop='1665148992460'>
+    <name>Android Mi A2 settings test</name>
+    <title>Android Mi A2 settings test</title>
+    <test-cases>
+        <test-case start='1665148967066' status='passed' stop='1665148991603'>
+            <name>test chrome app</name>
+            <title>test chrome app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1665148972078' status='passed' stop='1665148973078'>
+                    <name>POST /session/:sessionId/appium/device/start_activity</name>
+                    <title>POST /session/:sessionId/appium/device/start_activity</title>
+                    <attachments>
+                        <attachment title='Request' source='e2946bea-68a4-4063-b435-c2fcb17d3cfd-attachment.json' type='application/json' size='96'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665148975079' status='passed' stop='1665148975545'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0d6fde5f-c40a-4783-b1de-9892217194db-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='472da4eb-f54b-47d2-a814-7731cf4b3958-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665148975552' status='passed' stop='1665148976848'>
+                    <name>POST /session/:sessionId/element/00000000-0000-08a6-ffff-ffff0000002d/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-08a6-ffff-ffff0000002d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665148978849' status='passed' stop='1665148980154'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2e051636-0c07-47ab-a993-43f3a774a654-attachment.json' type='application/json' size='119'/>
+                        <attachment title='Response' source='3066fd48-120f-42a2-984d-d68e04f15a6c-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665148983159' status='passed' stop='1665148983322'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b5307a16-c141-499c-aa5a-dfaec191778f-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='4f99ae6b-e2cd-4cde-99e4-17ce7e9367f3-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665148983326' status='passed' stop='1665148983399'>
+                    <name>POST /session/:sessionId/element/00000000-0000-08a7-ffff-ffff000000ac/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-08a7-ffff-ffff000000ac/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1665148986399' status='passed' stop='1665148988507'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f88503d0-dcee-4775-829f-b3e99ef692e3-attachment.json' type='application/json' size='119'/>
+                        <attachment title='Response' source='07b7483e-16d7-4a27-9a7e-ddeaadff01c1-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1665148991512' status='passed' stop='1665148991599'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='228c0b87-fe7e-4e5b-8265-32dd2ce38875-attachment.json' type='application/json' size='159'/>
+                        <attachment title='Response' source='10fbf0c7-3f88-4dfa-802c-4273dcfc2270-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1665148991603' status='broken' stop='1665148992459'>
+            <name>add address to google chrome</name>
+            <title>add address to google chrome</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1665148991620' status='passed' stop='1665148992458'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6dffa7ed-35d3-4973-b78c-a591152ad978-attachment.png' type='image/png' size='102619'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading '0')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading '0')
+                    at Context.&lt;anonymous> (E:\MyWorkSpace\wdo-samples\wdio-jsappium\test\specs\chromeapp\/chrome2.addAddress.test.js:60:20)
+                    at Context.executeAsync (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,195 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664949650556' stop='1664949735826'>
+    <name>sample appium test</name>
+    <title>sample appium test</title>
+    <test-cases>
+        <test-case start='1664949650557' status='broken' stop='1664949712633'>
+            <name>A sample menu click</name>
+            <title>A sample menu click</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1664949650559' status='passed' stop='1664949652597'>
+                    <name>POST /session/:sessionId/appium/device/start_activity</name>
+                    <title>POST /session/:sessionId/appium/device/start_activity</title>
+                    <attachments>
+                        <attachment title='Request' source='5f52c493-953d-41a9-9216-da14308b7856-attachment.json' type='application/json' size='113'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664949660600' status='broken' stop='1664949712632'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='156c15a6-fcda-48e9-9e1d-85918ce2ed0f-attachment.json' type='application/json' size='101'/>
+                    </attachments>
+                    <steps>
+                        <step start='1664949660631' status='passed' stop='1664949660986'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='91c4b849-6254-4a51-8865-70df5e8c53e1-attachment.json' type='application/json' size='479846'/>
+                                <attachment title='Response' source='1d2039be-7ef3-4316-9d6c-18307c20cf74-attachment.json' type='application/json' size='2'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1664949663996' status='passed' stop='1664949680918'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='b60dbbbb-2820-43b0-9317-218a7249dfbb-attachment.json' type='application/json' size='101'/>
+                                <attachment title='Response' source='0d69d852-e2ae-49e0-aa9c-2238764c57f5-attachment.json' type='application/json' size='2'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1664949683923' status='passed' stop='1664949690187'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='fa2abc63-286a-445c-ac6b-63590002c1ec-attachment.json' type='application/json' size='101'/>
+                                <attachment title='Response' source='f2c7772a-0caa-4fcd-8d98-141e7a179cc8-attachment.json' type='application/json' size='2'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1664949693189' status='passed' stop='1664949696504'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='72018209-5c3b-47ea-bd38-5a0b029bb0e7-attachment.json' type='application/json' size='101'/>
+                                <attachment title='Response' source='05f31400-e764-4b77-8bcd-8c7364ba290c-attachment.json' type='application/json' size='2'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1664949699508' status='passed' stop='1664949703143'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='899a6445-99ce-4d06-9107-92fef3fd414e-attachment.json' type='application/json' size='101'/>
+                                <attachment title='Response' source='1a21ba1b-85d9-4451-b157-3b98368cd00c-attachment.json' type='application/json' size='2'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1664949706144' status='passed' stop='1664949706313'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='6e430b5a-366c-4d3f-a6a2-08abf0a869f6-attachment.json' type='application/json' size='101'/>
+                                <attachment title='Response' source='0a8bb732-f38d-48d7-a8e7-341d4f6138be-attachment.json' type='application/json' size='2'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1664949709314' status='passed' stop='1664949709618'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='91dc6424-ab3b-4ca8-bb20-520d30965e97-attachment.json' type='application/json' size='101'/>
+                                <attachment title='Response' source='42f0f96d-f642-454f-a5f7-4801ffb16011-attachment.json' type='application/json' size='2'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1664949712622' status='broken' stop='1664949712632'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='112db205-c989-4344-b255-8cb872b4f622-attachment.json' type='application/json' size='101'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "sample appium test A sample menu click" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (E:\MyWorkSpace\wdo-samples\wdio-jsappium\test\specs\bigbasket\TC01.test.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "sample appium test A sample menu click" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (E:\MyWorkSpace\wdo-samples\wdio-jsappium\test\specs\bigbasket\TC01.test.js)
+                    at createTimeoutError (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (E:\MyWorkSpace\wdo-samples\wdio-jsappium\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1664949712634' status='passed' stop='1664949718635'>
+            <name>C scroll to elements</name>
+            <title>C scroll to elements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1664949721654' status='undefined'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='dca3a7da-5dd7-4027-9904-b55583a50d9a-attachment.json' type='application/json' size='101'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='d654bcf1-68be-44fd-abeb-1df73c95ed5d-attachment.json' type='application/json' size='2'/>
+            </attachments>
+        </test-case>
+        <test-case start='1664949721687' status='broken' stop='1664949735824'>
+            <name>E get the size of screen</name>
+            <title>E get the size of screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='MiA2 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1664949724687' status='passed' stop='1664949726495'>
+                    <name>POST /session/:sessionId/touch/perform</name>
+                    <title>POST /session/:sessionId/touch/perform</title>
+                    <attachments>
+                        <attachment title='Request' source='19f8a2f7-f101-49ae-86fe-848f73439c5d-attachment.json' type='application/json' size='344'/>
+                        <attachment title='Response' source='cd4f2237-a50d-43e3-8183-88deb86a9dee-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664949729467' status='passed' stop='1664949729646'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='414c0db5-8dce-4eb8-8345-b08b803c4a76-attachment.json' type='application/json' size='97'/>
+                        <attachment title='Response' source='c57f0e98-6696-440a-8efa-6810a38bc84c-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664949734656' status='passed' stop='1664949735824'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='155a36ab-1e99-43bd-8479-db03febd64a7-attachment.png' type='image/png' size='615872'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'click')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'click')
+                    at Context.&lt;anonymous> (E:\MyWorkSpace\wdo-samples\wdio-jsappium\test\specs\bigbasket\/TC01.test.js:66:25)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
