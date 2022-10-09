@@ -9,19 +9,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      // We install necessary drivers so we can run our tests
-      - name: Install Chromium
-        run: sudo apt-get install chromium-browser
-     // We need to checkout current branch
-      - uses: actions/checkout@v2
-     // As it's a NodeJS project, we need to setup NodeJS into our enviornement
-      - name: Use Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 16.x
-     // We did not check node_modules directory to GitHub so we need to install dependencies
-      - run: npm install
-        name: Install dependencies
-     // We execute our test execution command
-      - run: npx wdio test/wdio.conf.ts
-        name: Running E2E tests
+        - name: Checkout
+          uses: actions/checkout@v2
+        - uses: actions/setup-node@v1
+          with:
+            node-version: 16.x
+        - name: Install
+          run: npm install
+        - name: Test
+          run: npm run web_test
+        - uses: actions/upload-artifact@v1
+          if: failure()
+          with:
+            name: logs
+            path: logs
