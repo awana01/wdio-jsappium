@@ -21,7 +21,7 @@ exports.config = {
         browserName: 'chrome',
         acceptInsecureCerts: true,
         'goog:chromeOptions': { 
-            args: ["--headless", "user-agent=...","--disable-gpu","--window-size=1440,735"]
+            args: ["--headless", "user-agent=...","--disable-gpu","--window-size=1440,735","--disable-dev-shm-usage"]
        }
        
     }],
