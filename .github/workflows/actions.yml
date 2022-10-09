@@ -36,12 +36,13 @@ jobs:
             path: gh-pages
 
         - name: Allure Report action from marketplace
-          uses: simple-elf/allure-report-action@main
+          uses: simple-elf/allure-report-action@master
           # uses: afiore/action-allure-report@v0.1.0
           if: always()
+          continue-on-error: true
           id: allure-report
           with:
-            allure_results: target/allure-results
+            allure_results: allure-results
             gh_pages: gh-pages
             allure_report: allure-report
             allure_history: allure-history
