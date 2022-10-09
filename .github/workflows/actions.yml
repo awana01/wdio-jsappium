@@ -24,8 +24,11 @@ jobs:
             name: logs
             path: logs
 
-        - name: Get Allure history
-          uses: actions/checkout@v2
+        # - name: Get Allure history
+        #   uses: actions/checkout@v2
+        
+        - name: Allure report
+          uses: afiore/action-allure-report@v0.1.0
           if: always()
           continue-on-error: true
           with:
@@ -33,7 +36,8 @@ jobs:
             path: gh-pages
 
         - name: Allure Report action from marketplace
-          uses: simple-elf/allure-report-action@master
+          # uses: simple-elf/allure-report-action@master
+          uses: afiore/action-allure-report@v0.1.0
           if: always()
           id: allure-report
           with:
