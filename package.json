@@ -1,0 +1,28 @@
+{
+  "name": "wdio-jsappium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mochatest": "mocha --timeout 12000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "@babel/register": "^7.18.9",
+    "@faker-js/faker": "^7.5.0",
+    "@wdio/allure-reporter": "^7.25.1",
+    "@wdio/appium-service": "^7.25.1",
+    "@wdio/cli": "^7.25.1",
+    "@wdio/local-runner": "^7.25.1",
+    "@wdio/mocha-framework": "^7.25.1",
+    "chai": "^4.3.6",
+    "chromedriver": "^106.0.1",
+    "shelljs": "^0.8.5",
+    "wdio-chromedriver-service": "^8.0.0",
+    "wdio-wait-for": "^2.2.6"
+  }
+}
