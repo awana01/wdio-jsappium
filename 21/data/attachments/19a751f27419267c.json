@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//android.widget.ScrollView[1]/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView"
-}
