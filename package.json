@@ -7,7 +7,8 @@
     "mochatest": "mocha --timeout 12000",
     "web_test": "wdio wdio.conf.js --spec ./test/specs/example.e2e.js",
     "allure_report": "allure generate allure-results --clean -o allure-report && allure open",
-    "run_test_allure_report":"wdio wdio.conf.js --spec ./test/specs/example.e2e.js && allure generate allure-results --clean -o allure-report"
+    "run_test_allure_report": "wdio wdio.conf.js --suite webtests && allure generate allure-results --clean -o allure-report",
+    "run_env_test":"cross-env browserName=chrome user=automation wdio wdio.conf.js --spec ./test/specs/google01.test.js"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,8 @@
     "allure-commandline": "^2.18.1",
     "chai": "^4.3.6",
     "chromedriver": "^106.0.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
     "shelljs": "^0.8.5",
     "wdio-chromedriver-service": "^8.0.0",
     "wdio-wait-for": "^2.2.6"

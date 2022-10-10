@@ -1,4 +1,21 @@
+import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+const result = dotenv.config()
+const os = require('os')
+
+console.log("platform Name:"+os.type())
+let google_opts;
+
+if(os.type().includes("Windows_NT")){
+    google_opts=[];
+}else{
+    google_opts=["--headless", "user-agent=...","--disable-gpu","--window-size=1440,735","--disable-dev-shm-usage"]
+}
+
+var browser = process.env.browserName
+console.log(browser)
+
 exports.config = {
+    
     
     // ====================
     // Runner Configuration
@@ -9,20 +26,27 @@ exports.config = {
     specs: [
         './test/specs/**/*.js'
     ],
+    suites: {
+        webtests: [
+            './test/specs/example.e2e.js',
+            './test/specs/google01.test.js'
+        ],
+    },
     // Patterns to exclude.
     exclude: [
-        // 'path/to/excluded/files'
+        './test/specs/**/*.android.*.js'
     ],
     
     maxInstances: 1,
     capabilities: [{
-
-        //maxInstances: 1,
-        browserName: 'chrome',
-        acceptInsecureCerts: true,
-        'goog:chromeOptions': { 
-            args: ["--headless", "user-agent=...","--disable-gpu","--window-size=1440,735","--disable-dev-shm-usage"]
-       }
+       
+          //maxInstances: 1,
+          browserName: 'chrome',
+          acceptInsecureCerts: true,
+          'goog:chromeOptions': { 
+                    args:google_opts
+            }
+        
        
     }],
     // Level of logging verbosity: trace | debug | info | warn | error | silent
