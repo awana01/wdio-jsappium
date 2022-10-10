@@ -17,7 +17,7 @@ jobs:
         - name: Install
           run: npm install
         - name: Test
-          run: npm run web_test
+          run: npm run run_test_allure_report
         # - uses: actions/upload-artifact@v1
           # if: failure()
           # with:
@@ -45,7 +45,7 @@ jobs:
 
         - name: Deploy report to Github Pages
           if: always()
-          uses: peaceiris/actions-gh-pages@v3
+          uses: peaceiris/actions-gh-pages@v2
           env:
             PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             PUBLISH_BRANCH: gh-pages
