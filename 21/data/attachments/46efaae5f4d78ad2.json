@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout"
+}
