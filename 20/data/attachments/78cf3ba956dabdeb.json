@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.ImageView[@resouce-id=\"com.bigbasket.mobileapp:id/imgCategory\"]"
+}

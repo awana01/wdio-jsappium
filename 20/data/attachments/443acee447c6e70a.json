@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.LinearLayout[2]/android.widget.RelativeLayout"
+}
