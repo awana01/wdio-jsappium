@@ -13,22 +13,19 @@ jobs:
           uses: actions/checkout@v2
         - uses: actions/setup-node@v1
           with:
-            node-version: 16.x
+            node-version: 18.x
         - name: Install
           run: npm install
         - name: Test
           run: npm run web_test
         - uses: actions/upload-artifact@v1
-          if: failure()
+          # if: failure()
           # with:
           #   name: logs
           #   path: logs
-
-        # - name: Get Allure history
-        #   uses: actions/checkout@v2
         
-        - name: Allure report
-          uses: afiore/action-allure-report@v0.1.0
+        - name: Get Allure history
+          uses: actions/checkout@v2
           if: always()
           continue-on-error: true
           with:
@@ -37,15 +34,14 @@ jobs:
 
         - name: Allure Report action from marketplace
           uses: simple-elf/allure-report-action@master
-          # uses: afiore/action-allure-report@v0.1.0
           if: always()
-          continue-on-error: true
-          id: allure-report
+          #id: allure-report
           with:
             allure_results: allure-results
-            gh_pages: gh-pages
-            allure_report: allure-report
+            #gh_pages: gh-pages
+            #allure_report: allure-report
             allure_history: allure-history
+            keep_reports: 20
 
         - name: Deploy report to Github Pages
           if: always()
@@ -54,12 +50,43 @@ jobs:
             PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             PUBLISH_BRANCH: gh-pages
             PUBLISH_DIR: allure-history
-        # - name: Post the link to the report
+
+        # # - name: Get Allure history
+        # #   uses: actions/checkout@v2
+        
+        # - name: Allure report
+        #   uses: afiore/action-allure-report@v0.1.0
         #   if: always()
-        #   uses: Sibz/github-status-action@v1
-        #   with: 
-        #     authToken: ${{secrets.GITHUB_TOKEN}}
-        #     context: 'Test report'
-        #     state: 'success'
-        #     sha: ${{ github.event.pull_request.head.sha }}
-        #     target_url: simple-elf.github.io/github-allure-history/${{ github.run_number }}
+        #   continue-on-error: true
+        #   with:
+        #     ref: gh-pages
+        #     path: gh-pages
+
+        # - name: Allure Report action from marketplace
+        #   uses: simple-elf/allure-report-action@master
+        #   # uses: afiore/action-allure-report@v0.1.0
+        #   if: always()
+        #   continue-on-error: true
+        #   id: allure-report
+        #   with:
+        #     allure_results: allure-results
+        #     gh_pages: gh-pages
+        #     allure_report: allure-report
+        #     allure_history: allure-history
+
+        # - name: Deploy report to Github Pages
+        #   if: always()
+        #   uses: peaceiris/actions-gh-pages@v2
+        #   env:
+        #     PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        #     PUBLISH_BRANCH: gh-pages
+        #     PUBLISH_DIR: allure-history
+        # # - name: Post the link to the report
+        # #   if: always()
+        # #   uses: Sibz/github-status-action@v1
+        # #   with: 
+        # #     authToken: ${{secrets.GITHUB_TOKEN}}
+        # #     context: 'Test report'
+        # #     state: 'success'
+        # #     sha: ${{ github.event.pull_request.head.sha }}
+        # #     target_url: simple-elf.github.io/github-allure-history/${{ github.run_number }}
