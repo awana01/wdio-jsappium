@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//android.widget.LinearLayout[2]/android.widget.RelativeLayout\"}\n  (Session info: chrome=106.0.5249.62)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00461ED3+2236115]\n\tOrdinal0 [0x003F92F1+1807089]\n\tOrdinal0 [0x003066FD+812797]\n\tOrdinal0 [0x003355DF+1005023]\n\tOrdinal0 [0x003357CB+1005515]\n\tOrdinal0 [0x00367632+1209906]\n\tOrdinal0 [0x00351AD4+1120980]\n\tOrdinal0 [0x003659E2+1202658]\n\tOrdinal0 [0x003518A6+1120422]\n\tOrdinal0 [0x0032A73D+960317]\n\tOrdinal0 [0x0032B71F+964383]\n\tGetHandleVerifier [0x0070E7E2+2743074]\n\tGetHandleVerifier [0x007008D4+2685972]\n\tGetHandleVerifier [0x004F2BAA+532202]\n\tGetHandleVerifier [0x004F1990+527568]\n\tOrdinal0 [0x0040080C+1837068]\n\tOrdinal0 [0x00404CD8+1854680]\n\tOrdinal0 [0x00404DC5+1854917]\n\tOrdinal0 [0x0040ED64+1895780]\n\tBaseThreadInitThunk [0x76ABFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77567B5E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77567B2E+238]\n"
-}
